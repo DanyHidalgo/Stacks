@@ -24,6 +24,7 @@ print(s)
 print("Element popped was: {}".format(element_popped))
 s.push("F") 
 print(s)
+'''
 s.pop()
 print(s)
 s.pop()
@@ -34,3 +35,8 @@ s.pop()
 print(s)
 #s.pop() #STACK UNDERFLOW
 #print(s)
+'''
+
+print('Search A: ', s.search("A"))
+print('Search C: ', s.search("C"))
+print('Search D: ', s.search("D"))
